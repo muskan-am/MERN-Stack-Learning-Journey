@@ -1,0 +1,25 @@
+#container{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+    position: relative;
+}
+
+#bluebox{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(39, 39, 144);
+    position: absolute;
+    top: 100px;
+}
+
+
+#circle{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position : absolute;
+    top: 25px;
+    left: 225px;
+}

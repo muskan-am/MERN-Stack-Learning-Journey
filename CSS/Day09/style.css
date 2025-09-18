@@ -1,0 +1,45 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+     /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    height: 600px;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 10px ;
+}
+
+/* Justify content : main axis ke around work karta hai */
+/* And main axis decide kaun karta hai hamara flex-direction */
+/* Align items work karta hai around cross axis */
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+
+.first{
+    background-color: blue;
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: yellow;
+    /* flex-grow: calc(2); */
+    /* flex-shrink: calc(3); */
+}
+
+.third{
+    background-color: red;
+    /* flex-grow: calc(3); */
+    align-self: flex-start;
+}
+
+.fourth{
+    background-color: greenyellow;
+}

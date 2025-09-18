@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: aquamarine !important;
+}
+h1{
+    background-color: #be2323;
+}
+
+.second{
+    background-color: chartreuse;
+}
+
+#sec{
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,49 @@
+#container{
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    position:relative
+}
+
+#innercontainer{
+    height: 300px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+#box1{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(56, 56, 169);
+}
+
+#box2{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(56, 56, 169);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#box3{
+    height: 125px;
+    width: 225px;
+    background-color: rgb(56, 56, 169);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#box4{
+    height: 125px;
+    width: 225px;
+    background-color: rgb(56, 56, 169);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+

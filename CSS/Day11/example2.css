@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    /* box-shadow: 10px 10px rgb(233, 44, 233) ; */
+    /* box-shadow: -10px 10px rgb(233, 44, 233) ; */
+    /* Shadow  */
+    box-shadow: 10px 10px 9px 12px rgb(249, 245, 28) ;
+    /* box-shadow: inset 10px 10px plum; */
+    /* inset - means box ke ander ke side shadow jaye  */
+ } 
+
+img{
+    height: 197px;
+    width: 197px;
+} 
+
+
+
+

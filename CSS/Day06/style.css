@@ -1,0 +1,29 @@
+h1{
+    background-color: aquamarine;
+}
+
+#exer{
+    background-color: pink;
+}
+h2{
+    background-color: rgb(145, 10, 32);
+}
+
+
+/* ul{
+    background-color: hsla(110, 50% , 50% , 0.4);
+    font-size: 30px;
+} */
+/* em karne se parent ke size pe depent hoga */
+/* li{
+    font-size: 2em; 
+} */
+/* rem root ke element ke twice hoga size */
+/* h2{
+    font-size: 2rem;
+} */
+
+
+h2{
+    font-size: 3vw;
+}

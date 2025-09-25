@@ -6,6 +6,7 @@ This repository contains my **day-wise progress** while learning web development
 
 ##  Day-Wise Progress (Completed)
 
+### **HTML5**
 - **Day 00:** Introduction to Web Development → Internet, MERN Stack Overview, System Design basics  
 - **Day 01:** HTML Basics → Headings, Paragraph, Anchor tag, Image element, List, Attributes  
 - **Day 02:** HTML Nested Lists & Tables → Complete guide with detailed examples  
@@ -21,7 +22,12 @@ This repository contains my **day-wise progress** while learning web development
 - **Day 10:** CSS Grid → 2D Layouts  
 - **Day 11:** Responsive Design → Media Queries, Overflow, Box Shadows  
 - **Day 12:** CSS Animations → From zero to advanced  
-
+- **Day 13:** Transitions & Transforms → Effects & Motion in CSS
+  **Day 14:** Build a Complete Portfolio Website with HTML & CSS
+  
+- ### **JavaScript**
+-  **Day 15:** Introduction to JavaScript (JavaScript: Safe, lightweight, sandboxed — built for the web).
+-  
 ---
 ## Mini Projects
 
@@ -29,12 +35,20 @@ This repository contains my **day-wise progress** while learning web development
 A mini project built using **HTML only**.  
 📂 Location: `HTML/MiniProject`  
 
-📌 Features:
+ **Features:**
 - Homepage with navigation bar
 - Diet and Nutrition section
 - Exercise Routines section
 - Contact us page.
-- 
+
+- ### 2. Solar System (HTML + CSS Project)
+📂 Location: `CSS/Solar System`  
+
+**Features:**
+- Planets styled with CSS  
+- Rotating orbit effect using animations  
+- 3D solar system visualization.
+    
 ---
 
 ##  Tech Stack (so far)

@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1200px;
+
+}
+
+.solar-system {
+  position: relative;
+  height: 1000px;
+  width: 1000px;
+  
+  transform-style: preserve-3d;
+}
+
+/* ---- SUN ---- */
+.sun {
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(
+    circle at center,
+    #fff176 0%,
+    #ff9800 45%,
+    #ff5722 75%
+    );
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 100px 40px #ff9800, 0 0 200px 80px #ff5722;
+  z-index: 10;
+}
+
+/* ---- ORBIT CONTAINERS ---- */
+.orbit {
+  position: absolute;
+  top: 35%;
+  /* left: 50%; */
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  animation: moving linear infinite;
+}
+
+/* ---- PLANETS ---- */
+.planet {
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(var(--distance));
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+
+/* Mercury */
+.orbit1 {
+  height: 220px;
+  width: 220px;
+  animation-duration: 4s;
+}
+
+.orbit1 .planet {
+  height: 15px;
+  width: 15px;
+  background-color: grey;
+  --distance: 110px;
+}
+
+/* Venus */
+
+.orbit2 {
+  width: 300px;
+  height: 300px;
+  animation-duration: 7s;
+}
+
+.orbit2 .planet {
+  width: 25px;
+  height: 25px;
+  background: orange;
+  --distance: 150px;
+}
+
+/* Earth */
+.orbit3 {
+  width: 400px;
+  height: 400px;
+  animation-duration: 10s;
+}
+
+.orbit3 .planet {
+  width: 28px;
+  height: 28px;
+  background: skyblue;
+  --distance: 200px;
+}
+
+/* Mars */
+.orbit4 {
+  width: 500px;
+  height: 500px;
+  animation-duration: 13s;
+}
+
+.orbit4 .planet {
+  width: 22px;
+  height: 22px;
+  background: red;
+  --distance: 250px;
+}
+
+
+/* Jupiter */
+.orbit5 {
+  width: 650px;
+  height: 650px;
+  animation-duration: 20s;
+}
+
+.orbit5 .planet {
+  width: 60px;
+  height: 60px;
+  background: burlywood;
+  --distance: 325px;
+}
+
+/* Saturn */
+.orbit6 {
+  width: 800px;
+  height: 800px;
+  animation-duration: 25s;
+}
+
+.orbit6 .planet {
+  width: 50px;
+  height: 50px;
+  background: goldenrod;
+  --distance: 400px;
+  box-shadow: inset 0 0 10px #000;
+}
+
+/* Uranus */
+.orbit7 {
+  width: 900px;
+  height: 900px;
+  animation-duration: 30s;
+}
+
+.orbit7 .planet {
+  width: 40px;
+  height: 40px;
+  background: lightseagreen;
+  --distance: 450px;
+}
+
+/* Neptune */
+.orbit8 {
+  width: 1000px;
+  height: 1000px;
+  animation-duration: 35s;
+}
+
+.orbit8 .planet {
+  width: 38px;
+  height: 38px;
+  background: dodgerblue;
+  --distance: 500px;
+}
+
+
+@keyframes moving{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

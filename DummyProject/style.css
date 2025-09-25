@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+  border: 2px solid white;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.heading , .counting {
+    height: 100px;
+  
+}
+
+.counting{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    left: 150px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.counting h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: aqua;
+}
+.button-box{
+    border: 2px solid white;
+    height: 100px;
+    width: 320px;
+    position: absolute;
+    bottom: 20px;
+
+   
+}
+
+.button1{
+     /* height: 30px; */
+    padding: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin: auto;
+
+}
+
+
+
+
+

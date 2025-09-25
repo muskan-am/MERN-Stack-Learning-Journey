@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 600px;
+    width: 600px;
+    /* background-color: rgb(2, 88, 248); */
+    border: 0.1px solid white;
+    border-radius: 50%;
+    /* font-size: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: aqua; */
+    /* animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    /* position: relative; */
+}
+
+.sun{
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(
+    circle at center,
+    #fff176 0%,
+    #ff9800 45%,
+    #ff5722 75%
+    );
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+     /* transform: translate(10px); */
+     /* position: sticky; */
+     box-shadow: 0 0 50px 20px #ff9800;
+}
+
+
+
+.planet1{
+    height: 40px;
+    width: 40px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translateX(300px);
+   animation: orbit 5s linear infinite;
+    /* animation-name: planet;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+
+}
+
+
+@keyframes moving {
+    from{
+        transform: rotate(0deg) ;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes orbit{
+    from{
+        transform: translate(-50%, -50%) rotate(0deg) translateX(300px) rotate(0deg);
+    }
+    to{
+        transform : translate(-50%, -50%) rotate(360deg) translateX(300px) rotate(-360deg);
+    }
+}
+

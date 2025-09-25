@@ -13,22 +13,33 @@ This repository contains my **day-wise progress** while learning web development
 - **Day 04:** HTML Forms → Beginner to Advanced  
 - **Day 05:** Deploy Your First Website → Media tag, Multi-page website  
 
+### **CSS**
+- **Day 06:** CSS Introduction → Inline, Internal, External CSS  
+- **Day 07:** CSS Box Model & Display Property → Content, Margin, Padding, Border  
+- **Day 08:** Positioning in CSS → Static, Relative, Absolute, Fixed, Sticky  
+- **Day 09:** Flexbox → One Project, Full Concepts  
+- **Day 10:** CSS Grid → 2D Layouts  
+- **Day 11:** Responsive Design → Media Queries, Overflow, Box Shadows  
+- **Day 12:** CSS Animations → From zero to advanced  
+
+---
 ## Mini Projects
 
 ### 1. Fitness Website
 A mini project built using **HTML only**.  
 📂 Location: `HTML/MiniProject`  
+
 📌 Features:
 - Homepage with navigation bar
 - Diet and Nutrition section
 - Exercise Routines section
-- Contact us..
-
+- Contact us page.
+- 
 ---
 
 ##  Tech Stack (so far)
 
-- **Frontend:** HTML
+- **Frontend:** HTML5, CSS (Basics to Advanced)
 
 ---
 
@@ -40,5 +51,8 @@ My goal is to become a **Full Stack MERN Developer**, starting from HTML basics,
 
 ## 🌟 Connect with Me
 
-- GitHub: [Your GitHub Profile](https://github.com/muskan-am)  
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- GitHub: [muskan-am](https://github.com/muskan-am)  
+- Twitter (X): [@MuskanK1120](https://x.com/MuskanK1120?t=r1FDIXlj9mQdQeHg4PAn-w&s=08)  
+- LinkedIn: [Muskan Kesharwani](https://www.linkedin.com/in/muskan-kesharwani-3701432aa)  
+
+---
